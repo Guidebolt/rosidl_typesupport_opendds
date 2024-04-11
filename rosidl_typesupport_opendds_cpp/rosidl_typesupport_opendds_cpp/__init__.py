@@ -151,6 +151,7 @@ def generate_dds_opendds_cpp(
                     "-o",
                     output_path,
                     "-I/usr/include",
+                    "-I/usr/local/include",
                     "--idl-version",
                     "4",
                     "-SS",
